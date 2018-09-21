@@ -6,3 +6,4 @@ GO
 ALTER TABLE [dbo].[Users] ADD
 [Facebook] [nvarchar] (50) NULL
 GO
+

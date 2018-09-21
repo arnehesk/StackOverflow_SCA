@@ -36,6 +36,14 @@
     <TargetDatabaseSet>True</TargetDatabaseSet>
     <Baselining>FolderBased</Baselining>
     <DeployChangesInitialImportDone>True</DeployChangesInitialImportDone>
+    <AlwaysUseDefaultConnectionForShadowDatabase>False</AlwaysUseDefaultConnectionForShadowDatabase>
+    <ExcludeObjectsFromSync />
+    <IncludeObjectsInDataSync>
+Table=[dbo].[VoteTypes];
+Table=[dbo].[LinkTypes];
+Table=[dbo].[PostTypes];
+</IncludeObjectsInDataSync>
+    <DeployChangesExecutionOrder />
   </PropertyGroup>
   <!-- SQL CHANGE AUTOMATION OFFLINE SCHEMA MODEL OPTIONS -->
   <PropertyGroup>
@@ -211,5 +219,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Migrations\1.1.0-Changes\001_20180920-2208_arneh.eskandari.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\1.1.0-Changes\002_20180921-0723_arneh.eskandari.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\1.1.0-Changes\003_20180921-0737_arneh.eskandari.sql" />
   </ItemGroup>
 </Project>

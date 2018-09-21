@@ -1,0 +1,11 @@
+C:\Redgate\GitRepos\GitHub\StackOverFlow_SCA\StackOverFlowSCA\StackOverFlowSCA\bin\Debug\StackOverFlowSCA_Package.sql
+C:\Redgate\GitRepos\GitHub\StackOverFlow_SCA\StackOverFlowSCA\StackOverFlowSCA\bin\Debug\StackOverFlowSCA_DeployPackage.ps1
+C:\Redgate\GitRepos\GitHub\StackOverFlow_SCA\StackOverFlowSCA\StackOverFlowSCA\bin\Debug\
+C:\Redgate\GitRepos\GitHub\StackOverFlow_SCA\StackOverFlowSCA\StackOverFlowSCA\bin\Debug\StackOverFlowSCA.sql
+C:\Redgate\GitRepos\GitHub\StackOverFlow_SCA\StackOverFlowSCA\StackOverFlowSCA\bin\Debug\StackOverFlowSCA.dll
+C:\Redgate\GitRepos\GitHub\StackOverFlow_SCA\StackOverFlowSCA\StackOverFlowSCA\bin\Debug\StackOverFlowSCA.pdb
+C:\Redgate\GitRepos\GitHub\StackOverFlow_SCA\StackOverFlowSCA\StackOverFlowSCA\obj\Debug\StackOverFlowSCA.sqlprojAssemblyReference.cache
+C:\Redgate\GitRepos\GitHub\StackOverFlow_SCA\StackOverFlowSCA\StackOverFlowSCA\obj\Debug\StackOverFlowSCA_Package.sql
+C:\Redgate\GitRepos\GitHub\StackOverFlow_SCA\StackOverFlowSCA\StackOverFlowSCA\obj\Debug\StackOverFlowSCA.sql
+C:\Redgate\GitRepos\GitHub\StackOverFlow_SCA\StackOverFlowSCA\StackOverFlowSCA\obj\Debug\StackOverFlowSCA.dll
+C:\Redgate\GitRepos\GitHub\StackOverFlow_SCA\StackOverFlowSCA\StackOverFlowSCA\obj\Debug\StackOverFlowSCA.pdb

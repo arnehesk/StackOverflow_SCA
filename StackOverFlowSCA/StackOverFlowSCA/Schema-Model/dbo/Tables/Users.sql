@@ -14,7 +14,8 @@ CREATE TABLE [dbo].[Users]
 [Views] [int] NOT NULL,
 [WebsiteUrl] [nvarchar] (200) NULL,
 [AccountId] [int] NULL,
-[Facebook] [nvarchar] (50) NULL
+[Facebook] [nvarchar] (50) NULL,
+[LinkedIn] [nvarchar] (50) NULL
 )
 GO
 ALTER TABLE [dbo].[Users] ADD CONSTRAINT [PK_Users_Id] PRIMARY KEY CLUSTERED  ([Id])

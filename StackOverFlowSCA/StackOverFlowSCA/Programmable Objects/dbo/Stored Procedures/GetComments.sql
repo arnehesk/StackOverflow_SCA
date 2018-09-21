@@ -1,4 +1,4 @@
-﻿IF OBJECT_ID('[dbo].[GetComments]') IS NOT NULL
+IF OBJECT_ID('[dbo].[GetComments]') IS NOT NULL
 	DROP PROCEDURE [dbo].[GetComments];
 
 GO
@@ -11,9 +11,10 @@ GO
 --RED-GATE\arneh.eskandari
 --GO
 CREATE PROCEDURE [dbo].[GetComments]
-    
+
 -- WITH ENCRYPTION, RECOMPILE, EXECUTE AS CALLER|SELF|OWNER| 'user_name'
 AS
-    SELECT Text  
-    FROM    dbo.Comments;
+SELECT Text,
+       Score
+FROM dbo.Comments;
 GO

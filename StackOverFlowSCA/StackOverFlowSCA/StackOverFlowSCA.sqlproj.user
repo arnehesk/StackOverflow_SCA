@@ -3,5 +3,7 @@
   <PropertyGroup>
     <TargetConnectionString>Data Source=US-LT-ARNEHE3\MSSQLSERVER2017;Initial Catalog=StackOverflowSCA_DEV;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True</TargetConnectionString>
     <TargetDatabase>StackOverflowSCA_DEV</TargetDatabase>
+    <StartupScript>(Blank)</StartupScript>
+    <StartAction>StartNone</StartAction>
   </PropertyGroup>
 </Project>
