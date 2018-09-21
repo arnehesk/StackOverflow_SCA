@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetConnectionString>Data Source=US-LT-ARNEHE3\MSSQLSERVER2017;Initial Catalog=StackOverflowSCA_DEV;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True</TargetConnectionString>
+    <TargetDatabase>StackOverflowSCA_DEV</TargetDatabase>
+  </PropertyGroup>
+</Project>

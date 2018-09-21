@@ -1,0 +1,3 @@
+CREATE SCHEMA [RedGateLocal]
+AUTHORIZATION [dbo]
+GO

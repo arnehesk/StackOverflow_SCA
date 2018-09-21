@@ -1,0 +1,19 @@
+﻿IF OBJECT_ID('[dbo].[GetComments]') IS NOT NULL
+	DROP PROCEDURE [dbo].[GetComments];
+
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+--SET QUOTED_IDENTIFIER ON|OFF
+--SET ANSI_NULLS ON|OFF
+--RED-GATE\arneh.eskandari
+--GO
+CREATE PROCEDURE [dbo].[GetComments]
+    
+-- WITH ENCRYPTION, RECOMPILE, EXECUTE AS CALLER|SELF|OWNER| 'user_name'
+AS
+    SELECT Text  
+    FROM    dbo.Comments;
+GO
