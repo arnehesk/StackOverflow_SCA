@@ -13,7 +13,8 @@ CREATE TABLE [dbo].[Users]
 [UpVotes] [int] NOT NULL,
 [Views] [int] NOT NULL,
 [WebsiteUrl] [nvarchar] (200) NULL,
-[AccountId] [int] NULL
+[AccountId] [int] NULL,
+[Facebook] [nvarchar] (50) NULL
 )
 GO
 ALTER TABLE [dbo].[Users] ADD CONSTRAINT [PK_Users_Id] PRIMARY KEY CLUSTERED  ([Id])

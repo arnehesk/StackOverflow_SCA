@@ -209,4 +209,7 @@
     <None Include="Schema-Model\Security\Schemas\RedGateLocal.sql" />
     <None Include="Schema-Model\Security\Users\RED-GATE_Joshua.Rodriguez.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\1.1.0-Changes\001_20180920-2208_arneh.eskandari.sql" />
+  </ItemGroup>
 </Project>
