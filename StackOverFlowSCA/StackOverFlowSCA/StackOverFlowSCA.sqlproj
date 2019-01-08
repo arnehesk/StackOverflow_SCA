@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -21,7 +21,6 @@
     <TargetLanguage>CS</TargetLanguage>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <SqlServerVerification>False</SqlServerVerification>
-    <GenerateCreateScript>False</GenerateCreateScript>
     <IncludeSchemaNameInFileName>True</IncludeSchemaNameInFileName>
     <IsSqlChangeAutomationProject>True</IsSqlChangeAutomationProject>
     <MinimumEngineVersion>1.17.18144</MinimumEngineVersion>
@@ -37,7 +36,6 @@
     <Baselining>FolderBased</Baselining>
     <DeployChangesInitialImportDone>True</DeployChangesInitialImportDone>
     <AlwaysUseDefaultConnectionForShadowDatabase>False</AlwaysUseDefaultConnectionForShadowDatabase>
-    <ExcludeObjectsFromSync />
     <IncludeObjectsInDataSync>
 Table=[dbo].[VoteTypes];
 Table=[dbo].[LinkTypes];
@@ -187,8 +185,10 @@ Table=[dbo].[PostTypes];
     <Folder Include="Schema-Model\Security\" />
     <Folder Include="Schema-Model\Security\Schemas\" />
     <Folder Include="Schema-Model\Security\Users\" />
+    <Folder Include="Migrations\1.2.0-Changes\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Migrations\1.2.0-Changes\001_20181218-1023_arneh.eskandari.sql" />
     <None Include="Pre-Deployment\01_Create_Database.sql" />
   </ItemGroup>
   <ItemGroup>
@@ -225,5 +225,8 @@ Table=[dbo].[PostTypes];
   </ItemGroup>
   <ItemGroup>
     <None Include="Migrations\1.1.0-Changes\003_20180921-0737_arneh.eskandari.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\1.2.0-Changes\002_20181220-0938_arneh.eskandari.sql" />
   </ItemGroup>
 </Project>
